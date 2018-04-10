@@ -1,6 +1,13 @@
-<h1><%= t "pages.home.title" %></h1>
-<p>
-  <%= t ".phome_1" %>
-  <%= link_to t(".rails_link"), "http://www.railstutorial.org/" %>
-  <%= t ".phome_2" %>
-</p>
+
+<div class="center jumbotron">
+  <h1><%= t "layouts.application.title1" %></h1>
+  <h2>
+    <%= t "layouts.application.phome_1" %>
+    <em><%= link_to t("layouts.application.homepage_link"), "http://www.railstutorial.org/" %></em>
+    <%= t "layouts.application.phome_4" %>
+  </h2>
+
+  <%= link_to t("layouts.application.singn_link"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"), "http://rubyonrails.org/" %>
