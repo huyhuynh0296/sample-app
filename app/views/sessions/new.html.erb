@@ -1,0 +1,19 @@
+<% provide :title, t("pages.header.login_link") %>
+<h1><% t("pages.header.login_link") %></h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for(:session, url: login_path) do |f| %>
+
+      <%= f.label :email, t("label.user.new.email") %>
+      <%= f.email_field :email, class: "form-control" %>
+
+      <%= f.label :password, t("label.user.new.password") %>
+      <%= f.password_field :password, class: "form-control" %>
+
+      <%= f.submit t("layouts.header.login_link"), class: "btn btn-primary" %>
+    <% end %>
+
+    <p><%= t "session.new.pnew" %><%= link_to t("layouts.application.singn_link"), signup_path %></p>
+  </div>
+</div>
