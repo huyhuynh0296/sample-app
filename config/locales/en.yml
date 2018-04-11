@@ -44,6 +44,10 @@ en:
         header:
           logo_link: "sample app"
           login_link: "Log in"
+          logout_link: "Log out"
+          users_link: "Users"
+          prof_link: "Profile"
+          Sett_link: "Settings"
 
         footer:
           pf1: "The"
@@ -55,14 +59,18 @@ en:
       users:
         new:
           title: "Sign up"
+          puser: "Users"
           pnew: "This will be a signup page for new users."
           pwconfirm: "Confirmation"
-          submit: "Create my account"
+          create: "Create my account"
+          flogin: "Log in"
+
       shared:
         error:
           perror: "The form contains"
-          one: "%{count} error"
-          other: "%{count} error"
+          one: "%{size} error"
+          other: "%{size} error"
+
       label:
           user:
             new:
@@ -70,3 +78,12 @@ en:
               name: "Your Name"
               password: "Enter The Password"
               password_confirmation: "Confrim The Password!"
+              remember: "Remember me on this computer"
+              create: "Create my account"
+
+      controller:
+        save: "Welcome to the Sample App!"
+
+      session:
+        app:
+          error: "Invalid email/password combination"

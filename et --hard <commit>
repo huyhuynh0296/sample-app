@@ -1,0 +1,262 @@
+[33m2c9da35[m HEAD@{0}: commit (amend): chapter_9
+[33mf4aab73[m HEAD@{1}: rebase -i (finish): returning to refs/heads/chapter_9
+[33mf4aab73[m HEAD@{2}: rebase -i (squash): chapter_8
+[33md5676a8[m HEAD@{3}: rebase -i (start): checkout HEAD~2
+[33ma96af4e[m HEAD@{4}: commit (amend): chapter_9
+[33m74e0a6e[m HEAD@{5}: reset: moving to HEAD@{31}
+[33m61b30c6[m HEAD@{6}: reset: moving to HEAD~
+[33mf425bb6[m HEAD@{7}: rebase -i (finish): returning to refs/heads/chapter_9
+[33mf425bb6[m HEAD@{8}: rebase -i (pick): chapter_4
+[33m61b30c6[m HEAD@{9}: rebase -i (pick): chapter_5
+[33mca983b7[m HEAD@{10}: rebase -i (start): checkout HEAD~2
+[33m0300a01[m HEAD@{11}: checkout: moving from chapter_9 to chapter_9
+[33m0300a01[m HEAD@{12}: rebase -i (finish): returning to refs/heads/chapter_9
+[33m0300a01[m HEAD@{13}: rebase -i (squash): chapter_4
+[33m519942e[m HEAD@{14}: rebase -i (squash): # This is a combination of 4 commits.
+[33m65cee1e[m HEAD@{15}: rebase -i (squash): # This is a combination of 3 commits.
+[33m550b052[m HEAD@{16}: rebase -i (squash): # This is a combination of 2 commits.
+[33m690ab0c[m HEAD@{17}: rebase -i (start): checkout HEAD~5
+[33m38eeed9[m HEAD@{18}: commit (amend): chapter_9
+[33m668e20a[m HEAD@{19}: commit (amend): chapter_9
+[33me4b36e6[m HEAD@{20}: rebase -i (finish): returning to refs/heads/chapter_9
+[33me4b36e6[m HEAD@{21}: rebase -i (squash): chapter_6.
+[33m189946e[m HEAD@{22}: rebase -i (squash): # This is a combination of 3 commits.
+[33mfa5013f[m HEAD@{23}: rebase -i (squash): # This is a combination of 2 commits.
+[33m74e0a6e[m HEAD@{24}: rebase -i (start): checkout HEAD~4
+[33ma9ecff3[m HEAD@{25}: rebase: aborting
+[33ma9ecff3[m HEAD@{26}: checkout: moving from b777737751440ed603c233fdbe7865bede46046e to chapter_9
+[33mb777737[m HEAD@{27}: rebase -i (pick): chapter_8
+[33me3b3197[m HEAD@{28}: rebase -i (pick): chapter_7
+[33mc94f73c[m HEAD@{29}: rebase -i (pick): chapter_6.
+[33m690ab0c[m HEAD@{30}: rebase -i (start): checkout HEAD~4
+[33md5676a8[m HEAD@{31}: rebase -i (start): checkout HEAD~4
+[33ma9ecff3[m HEAD@{32}: commit (amend): chapter_9
+[33m5a8c2a9[m HEAD@{33}: rebase finished: returning to refs/heads/chapter_9
+[33m5a8c2a9[m HEAD@{34}: rebase: chapter_9.
+[33m1c1aedf[m HEAD@{35}: rebase: chapter_8
+[33m6924902[m HEAD@{36}: rebase: Chapter_7
+[33m74e0a6e[m HEAD@{37}: rebase: chapter_6.
+[33md5676a8[m HEAD@{38}: rebase: checkout chapter_8
+[33m41f4861[m HEAD@{39}: checkout: moving from chapter_8 to chapter_9
+[33md5676a8[m HEAD@{40}: commit (amend): chapter_8
+[33m073b1b0[m HEAD@{41}: commit (amend): chapter_8
+[33m0586f05[m HEAD@{42}: commit (amend): chapter_8
+[33m20033a7[m HEAD@{43}: checkout: moving from chapter_8 to chapter_8
+[33m20033a7[m HEAD@{44}: commit (amend): chapter_8
+[33m94da8a5[m HEAD@{45}: rebase finished: returning to refs/heads/chapter_8
+[33m94da8a5[m HEAD@{46}: rebase: chapter_8
+[33m7f1f415[m HEAD@{47}: rebase: checkout chapter_7
+[33m40ebb00[m HEAD@{48}: commit (amend): chapter_8
+[33m8d5156d[m HEAD@{49}: commit (amend): chapter_8
+[33mbc7434e[m HEAD@{50}: rebase -i (finish): returning to refs/heads/chapter_8
+[33mbc7434e[m HEAD@{51}: rebase -i (squash): chapter_7
+[33me666ee8[m HEAD@{52}: rebase -i (squash): # This is a combination of 2 commits.
+[33m7f1f415[m HEAD@{53}: rebase -i (start): checkout HEAD~3
+[33mb9da605[m HEAD@{54}: checkout: moving from chapter_8 to chapter_8
+[33mb9da605[m HEAD@{55}: commit (amend): Chapter_7
+[33m4dada71[m HEAD@{56}: rebase -i (finish): returning to refs/heads/chapter_8
+[33m4dada71[m HEAD@{57}: rebase -i (squash): Chapter_7
+[33mbb888bb[m HEAD@{58}: rebase -i (start): checkout HEAD~2
+[33m607f889[m HEAD@{59}: rebase: aborting
+[33m0d5c739[m HEAD@{60}: rebase -i (start): checkout HEAD~2
+[33m607f889[m HEAD@{61}: rebase: aborting
+[33me30479e[m HEAD@{62}: commit (amend): chapter_6.
+[33m0d5c739[m HEAD@{63}: rebase -i (start): checkout HEAD~2
+[33m607f889[m HEAD@{64}: commit (amend): chapter_8
+[33mf7c5830[m HEAD@{65}: rebase finished: returning to refs/heads/chapter_8
+[33mf7c5830[m HEAD@{66}: rebase: chapter_8.
+[33mbb888bb[m HEAD@{67}: rebase: Chapter_7
+[33m0d5c739[m HEAD@{68}: rebase: chapter_6.
+[33m7f1f415[m HEAD@{69}: rebase: checkout chapter_7
+[33mb63a612[m HEAD@{70}: checkout: moving from master to chapter_8
+[33m19155dc[m HEAD@{71}: pull origin master: Fast-forward
+[33m17cd59a[m HEAD@{72}: checkout: moving from chapter_7 to master
+[33m7f1f415[m HEAD@{73}: commit (amend): chapter_7
+[33m5f62772[m HEAD@{74}: checkout: moving from chapter_11 to chapter_7
+[33mac7eeea[m HEAD@{75}: commit (amend): chapter_11
+[33m68662ae[m HEAD@{76}: checkout: moving from chapter_7 to chapter_11
+[33m5f62772[m HEAD@{77}: commit (amend): chapter_7
+[33m94efa19[m HEAD@{78}: checkout: moving from chapter_11 to chapter_7
+[33m68662ae[m HEAD@{79}: commit: chapter_11
+[33m67daf03[m HEAD@{80}: checkout: moving from chapter_10 to chapte_11
+[33m67daf03[m HEAD@{81}: checkout: moving from chapter_7 to chapter_10
+[33m94efa19[m HEAD@{82}: commit (amend): chapter_7
+[33m4423048[m HEAD@{83}: commit (amend): chapter_7
+[33mf617dd5[m HEAD@{84}: commit (amend): chapter_7
+[33meecb68e[m HEAD@{85}: commit (amend): chapter_7
+[33m14f91b0[m HEAD@{86}: checkout: moving from chapter_10 to chapter_7
+[33m67daf03[m HEAD@{87}: commit (amend): chapter_10.
+[33m92ac0cd[m HEAD@{88}: checkout: moving from chapter_7 to chapter_10
+[33m14f91b0[m HEAD@{89}: commit (amend): chapter_7
+[33m960d9bc[m HEAD@{90}: commit (amend): Rebase chapter_6
+[33m99ad129[m HEAD@{91}: reset: moving to HEAD~
+[33m3cc8f2f[m HEAD@{92}: rebase: aborting
+[33m17cd59a[m HEAD@{93}: rebase -i (start): checkout HEAD~2
+[33m3cc8f2f[m HEAD@{94}: commit (amend): Chapter_7
+[33m0c38d71[m HEAD@{95}: rebase finished: returning to refs/heads/chapter_7
+[33m0c38d71[m HEAD@{96}: rebase: Chapter_7.
+[33m99ad129[m HEAD@{97}: rebase: chapter_6.
+[33m17cd59a[m HEAD@{98}: rebase: checkout master
+[33m1f54143[m HEAD@{99}: commit (amend): Chapter_7.
+[33m07a549e[m HEAD@{100}: reset: moving to HEAD~
+[33mc049b9e[m HEAD@{101}: commit: Merge pull request #6 from huyhuynh0296/chapter_4
+[33m07a549e[m HEAD@{102}: rebase -i (finish): returning to refs/heads/chapter_7
+[33m07a549e[m HEAD@{103}: rebase -i (continue): Chapter_7
+[33mb4c73e3[m HEAD@{104}: rebase -i (start): checkout HEAD~2
+[33mf08ba65[m HEAD@{105}: commit (merge): Merge pull request #4 from huyhuynh0296/chapter_6
+[33mb4c73e3[m HEAD@{106}: checkout: moving from master to chapter_7
+[33m17cd59a[m HEAD@{107}: pull origin master: Fast-forward
+[33mc55cbec[m HEAD@{108}: checkout: moving from chapter_10 to master
+[33m92ac0cd[m HEAD@{109}: commit: chapter_10
+[33m41f4861[m HEAD@{110}: checkout: moving from chapter_9 to chapter_10
+[33m41f4861[m HEAD@{111}: checkout: moving from chapter_10 to chapter_9
+[33m4312ff5[m HEAD@{112}: checkout: moving from chapter_6 to chapter_10
+[33m4312ff5[m HEAD@{113}: commit (amend): chapter_6.
+[33m93d5c59[m HEAD@{114}: commit (amend): chapter_6
+[33m10b8e57[m HEAD@{115}: checkout: moving from chapter_7 to chapter_6
+[33mb4c73e3[m HEAD@{116}: commit (amend): Chapter_7.
+[33m673fa27[m HEAD@{117}: checkout: moving from chapter_9 to chapter_7
+[33m41f4861[m HEAD@{118}: commit (amend): chapter_9.
+[33mde4b0fb[m HEAD@{119}: checkout: moving from chapter_8 to chapter_9
+[33mb63a612[m HEAD@{120}: commit (amend): chapter_8.
+[33m166c43f[m HEAD@{121}: checkout: moving from chapter_7 to chapter_8
+[33m673fa27[m HEAD@{122}: commit (amend): Chapter_7
+[33m651e936[m HEAD@{123}: checkout: moving from chapter_8 to chapter_7
+[33m166c43f[m HEAD@{124}: checkout: moving from chapter_9 to chapter_8
+[33mde4b0fb[m HEAD@{125}: checkout: moving from chapter_8 to chapter_9
+[33m166c43f[m HEAD@{126}: commit (amend): chapter_8
+[33m653cf9f[m HEAD@{127}: checkout: moving from chapter_7 to chapter_8
+[33m651e936[m HEAD@{128}: commit (amend): Chapter_7.
+[33m8bdbbf1[m HEAD@{129}: checkout: moving from chapter_6 to chapter_7
+[33m10b8e57[m HEAD@{130}: checkout: moving from chapter_8 to chapter_6
+[33m653cf9f[m HEAD@{131}: commit (amend): chapter_8.
+[33m63985dd[m HEAD@{132}: checkout: moving from chapter_6 to chapter_8
+[33m10b8e57[m HEAD@{133}: checkout: moving from chapter_8 to chapter_6
+[33m63985dd[m HEAD@{134}: checkout: moving from chapter_7 to chapter_8
+[33m8bdbbf1[m HEAD@{135}: checkout: moving from chapter_8 to chapter_7
+[33m63985dd[m HEAD@{136}: checkout: moving from chapter_9 to chapter_8
+[33mde4b0fb[m HEAD@{137}: checkout: moving from chapter_6 to chapter_9
+[33m10b8e57[m HEAD@{138}: commit (amend): chapter_6.
+[33m15e18a9[m HEAD@{139}: checkout: moving from chapter_9 to chapter_6
+[33mde4b0fb[m HEAD@{140}: commit: chapter_9
+[33m63985dd[m HEAD@{141}: checkout: moving from chapter_8 to chapter_9
+[33m63985dd[m HEAD@{142}: checkout: moving from chapter_6 to chapter_8
+[33m15e18a9[m HEAD@{143}: commit (amend): chapter_6
+[33m45f5a7c[m HEAD@{144}: checkout: moving from chapter_8 to chapter_6
+[33m63985dd[m HEAD@{145}: commit: chapter_8
+[33m8bdbbf1[m HEAD@{146}: checkout: moving from chapter_7 to chapter_8
+[33m8bdbbf1[m HEAD@{147}: checkout: moving from chapter_8 to chapter_7
+[33mde8c59d[m HEAD@{148}: checkout: moving from chapter_7 to chapter_8
+[33m8bdbbf1[m HEAD@{149}: checkout: moving from chapter_8 to chapter_7
+[33mde8c59d[m HEAD@{150}: commit: chapter_8
+[33m45f5a7c[m HEAD@{151}: checkout: moving from chapter_6 to chapter_8
+[33m45f5a7c[m HEAD@{152}: commit (amend): chapter_6.
+[33m9790a0f[m HEAD@{153}: commit (amend): chapter_6
+[33m39d93c1[m HEAD@{154}: checkout: moving from chapter_7 to chapter_6
+[33m8bdbbf1[m HEAD@{155}: commit: Chapter_7
+[33m39d93c1[m HEAD@{156}: checkout: moving from chapter_6 to chapter_7
+[33m39d93c1[m HEAD@{157}: commit (amend): chapter_6.
+[33m7dbab96[m HEAD@{158}: commit: chapter_6
+[33mc55cbec[m HEAD@{159}: checkout: moving from master to chapter_6
+[33mc55cbec[m HEAD@{160}: checkout: moving from chapter_5 to master
+[33m5220399[m HEAD@{161}: checkout: moving from master to chapter_5
+[33mc55cbec[m HEAD@{162}: checkout: moving from chapter_6 to master
+[33m08f0978[m HEAD@{163}: rebase finished: returning to refs/heads/chapter_6
+[33m08f0978[m HEAD@{164}: rebase: Chapter_6.
+[33mb913fd1[m HEAD@{165}: rebase: chapter_4
+[33m5220399[m HEAD@{166}: rebase: checkout chapter_5
+[33mda2605a[m HEAD@{167}: commit (amend): Chapter_6.
+[33m85926a3[m HEAD@{168}: commit (amend): Chapter_6
+[33m4129ff8[m HEAD@{169}: reset: moving to HEAD~
+[33me25a673[m HEAD@{170}: rebase: aborting
+[33mc55cbec[m HEAD@{171}: rebase -i (start): checkout HEAD~2
+[33me25a673[m HEAD@{172}: commit (amend): Chapter_6
+[33md1a12ce[m HEAD@{173}: checkout: moving from 0e74283acdc216fdec204ad2fef0011a15278c84 to chapter_6
+[33m0e74283[m HEAD@{174}: commit (amend): Merge pull request #6 from huyhuynh0296/chapter_4
+[33m1416df5[m HEAD@{175}: commit (amend): Merge pull request #6 from huyhuynh0296/chapter_4
+[33mc55cbec[m HEAD@{176}: rebase -i (start): checkout HEAD~2
+[33md1a12ce[m HEAD@{177}: commit (amend): Chapter_6.
+[33m69fb123[m HEAD@{178}: rebase: aborting
+[33mc55cbec[m HEAD@{179}: rebase -i (start): checkout HEAD~2
+[33m69fb123[m HEAD@{180}: commit (amend): Chapter_6.
+[33mba48fdc[m HEAD@{181}: rebase: aborting
+[33mc55cbec[m HEAD@{182}: rebase -i (start): checkout HEAD~2
+[33mba48fdc[m HEAD@{183}: rebase -i (abort): updating HEAD
+[33m49725c6[m HEAD@{184}: rebase: aborting
+[33m49725c6[m HEAD@{185}: commit (amend): Chapter_6.
+[33mba48fdc[m HEAD@{186}: checkout: moving from c55cbec383ab1c36881b33e7e364043eab949f0e to chapter_6
+[33mc55cbec[m HEAD@{187}: rebase -i (start): checkout HEAD~2
+[33mba48fdc[m HEAD@{188}: commit (amend): Chapter_6
+[33mf05c915[m HEAD@{189}: checkout: moving from c55cbec383ab1c36881b33e7e364043eab949f0e to chapter_6
+[33mc55cbec[m HEAD@{190}: rebase -i (start): checkout HEAD~2
+[33mf05c915[m HEAD@{191}: rebase -i (finish): returning to refs/heads/chapter_6
+[33mf05c915[m HEAD@{192}: rebase -i (start): checkout HEAD~2
+[33mf05c915[m HEAD@{193}: checkout: moving from ca983b723957eeee45617cfd028df71ba0ff9dc5 to chapter_6
+[33mca983b7[m HEAD@{194}: reset: moving to HEAD~
+[33mcc23276[m HEAD@{195}: rebase -i (start): checkout HEAD~3
+[33mf05c915[m HEAD@{196}: rebase finished: returning to refs/heads/chapter_6
+[33mf05c915[m HEAD@{197}: rebase: chapter_6
+[33m4129ff8[m HEAD@{198}: rebase: Update chapter_4.
+[33mc55cbec[m HEAD@{199}: rebase: checkout master
+[33m4c3962f[m HEAD@{200}: checkout: moving from master to chapter_6
+[33mc55cbec[m HEAD@{201}: pull origin master: Fast-forward
+[33mcc23276[m HEAD@{202}: checkout: moving from chapter_4 to master
+[33m690ab0c[m HEAD@{203}: commit: chapter_4
+[33mcc23276[m HEAD@{204}: checkout: moving from master to chapter_4
+[33mcc23276[m HEAD@{205}: checkout: moving from chapter_4 to master
+[33m8f9aa0d[m HEAD@{206}: checkout: moving from master to chapter_4
+[33mcc23276[m HEAD@{207}: checkout: moving from chapter_4 to master
+[33m8f9aa0d[m HEAD@{208}: commit (amend): Chapter_4
+[33mdb0b2c7[m HEAD@{209}: checkout: moving from master to chapter_4
+[33mcc23276[m HEAD@{210}: merge chapter_5: Merge made by the 'recursive' strategy.
+[33mca983b7[m HEAD@{211}: reset: moving to HEAD~
+[33mdb0b2c7[m HEAD@{212}: checkout: moving from chapter_6 to master
+[33m4c3962f[m HEAD@{213}: rebase -i (finish): returning to refs/heads/chapter_6
+[33m4c3962f[m HEAD@{214}: checkout: moving from chapter_6 to chapter_6
+[33m4c3962f[m HEAD@{215}: checkout: moving from 0269bb6778a2426c8b4f88352f0445a2ad4d5065 to chapter_6
+[33m0269bb6[m HEAD@{216}: commit (amend): Update chapter_6
+[33m33f016f[m HEAD@{217}: rebase -i (start): checkout HEAD~4
+[33m4c3962f[m HEAD@{218}: rebase -i (finish): returning to refs/heads/chapter_6
+[33m4c3962f[m HEAD@{219}: rebase -i (start): checkout HEAD
+[33m4c3962f[m HEAD@{220}: checkout: moving from 33f016ff0f4fad6b3029072b81e9fbe90b572c2c to chapter_6
+[33m33f016f[m HEAD@{221}: rebase -i (start): checkout HEAD~3
+[33m4c3962f[m HEAD@{222}: commit (merge): chapter_4
+[33m33f016f[m HEAD@{223}: commit: chapter_6
+[33ma5bbe22[m HEAD@{224}: commit (amend): chapter_5
+[33m5220399[m HEAD@{225}: checkout: moving from chapter_5 to chapter_6
+[33m5220399[m HEAD@{226}: checkout: moving from chapter6 to chapter_5
+[33mca983b7[m HEAD@{227}: checkout: moving from master to chapter6
+[33mdb0b2c7[m HEAD@{228}: checkout: moving from chapter_5 to master
+[33m5220399[m HEAD@{229}: rebase -i (finish): returning to refs/heads/chapter_5
+[33m5220399[m HEAD@{230}: commit (amend): chapter_5
+[33me54a6ee[m HEAD@{231}: commit: chapter_5
+[33mfeccf63[m HEAD@{232}: rebase -i (start): checkout HEAD~2
+[33m8b9c28f[m HEAD@{233}: checkout: moving from chapter_4 to chapter_5
+[33mdb0b2c7[m HEAD@{234}: checkout: moving from master to chapter_4
+[33mdb0b2c7[m HEAD@{235}: checkout: moving from chapter_5 to master
+[33m8b9c28f[m HEAD@{236}: checkout: moving from master to chapter_5
+[33mdb0b2c7[m HEAD@{237}: merge chapter_4: Fast-forward
+[33mca983b7[m HEAD@{238}: checkout: moving from chapter6 to master
+[33mca983b7[m HEAD@{239}: checkout: moving from master to chapter6
+[33mca983b7[m HEAD@{240}: checkout: moving from chapter6 to master
+[33m8b9c28f[m HEAD@{241}: checkout: moving from chapter_5 to chapter6
+[33m8b9c28f[m HEAD@{242}: commit: chapter_5
+[33mea834f0[m HEAD@{243}: checkout: moving from chapter_4 to chapter_5
+[33mdb0b2c7[m HEAD@{244}: commit (amend): Update chapter_4.
+[33m3cd4f33[m HEAD@{245}: commit (amend): Update chapter_4
+[33m740cd20[m HEAD@{246}: checkout: moving from chapter_5 to chapter_4
+[33mea834f0[m HEAD@{247}: commit (amend): Merge pull request #1 from huyhuynh0296/chapter_3
+[33mca983b7[m HEAD@{248}: checkout: moving from master to chapter_5
+[33mca983b7[m HEAD@{249}: checkout: moving from chapter_5 to master
+[33mca983b7[m HEAD@{250}: checkout: moving from master to chapter_5
+[33mca983b7[m HEAD@{251}: checkout: moving from chapter_4 to master
+[33m740cd20[m HEAD@{252}: commit: chapter_4
+[33mca983b7[m HEAD@{253}: checkout: moving from master to chapter_4
+[33mca983b7[m HEAD@{254}: pull origin master: Fast-forward
+[33mbfe6118[m HEAD@{255}: checkout: moving from chapter_5 to master
+[33m280ed79[m HEAD@{256}: checkout: moving from chapter_4 to chapter_5
+[33m280ed79[m HEAD@{257}: commit (amend): chapter_4
+[33mfeccf63[m HEAD@{258}: checkout: moving from chapter_3 to chapter_4
+[33mfeccf63[m HEAD@{259}: commit: chapter_3
+[33mbfe6118[m HEAD@{260}: checkout: moving from master to chapter_3
+[33mbfe6118[m HEAD@{261}: commit (initial): chapter_1_2

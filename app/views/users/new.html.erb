@@ -1,4 +1,5 @@
 <% provide :title, t(".title") %>
+
 <h1><%= t "users.new.title" %></h1>
 
 <div class="row">
@@ -18,7 +19,12 @@
       <%= f.label :password_confirmation, t("label.user.new.password_confirmation") %>
       <%= f.password_field :password_confirmation, class: "form-control" %>
 
-      <%= f.submit t("users.new.submit"), class: "btn btn-primary" %>
+      <%= f.label :remember_me, class: "checkbox inline" do %>
+        <%= f.check_box :remember %>
+        <span><%= t("users.new.remember") %></span>
+      <% end %>
+
+      <%= f.submit t("users.new.create"), class: "btn btn-primary" %>
     <% end %>
   </div>
 </div>
