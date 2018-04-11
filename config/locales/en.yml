@@ -40,8 +40,11 @@ en:
           singn_link: "Sign up now!"
           phome_3: "This is the home page for the"
           phome_4: "sample application."
+
         header:
           logo_link: "sample app"
+          login_link: "Log in"
+
         footer:
           pf1: "The"
           pf2: "by"
