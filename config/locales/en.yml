@@ -1,33 +1,55 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+      pages:
+        about:
+          title: "About us"
+          rails_link: "Ruby on Rails Tutorial"
+          book_link: "book"
+          screen_link: "screencast series"
+          rubyonrails_link: "Ruby on Rails"
+          pabout_1: "The"
+          pabout_2: "is a"
+          pabout_3: "and"
+          pabout_4: "to teach web development with"
+          pabout_5: "This is the sample application for the tutorial."
+
+        contact:
+          title: "Contact"
+          page_link: "contact page"
+          pcontact_1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+
+        help:
+          title: "Help"
+          railshelp_link: "Rails Tutorial help section"
+          railsbook_link: "Ruby on Rails Tutorial book"
+          phelp_1: "Get help on the Ruby on Rails Tutorial at the"
+          phelp_2: "To get help on this sample app, see the"
+          phelp_3: "book"
+
+        home:
+          title: "Home"
+          phome_1: "This is the home page for the."
+          phome_2: "sample application."
+
+      layouts:
+        application:
+          title: "| Ruby on Rails Tutorial Sample App"
+          title1: "Welcome to the Sample App"
+          phome_1: "This is the home page for the"
+          phome_2: "sample application."
+          homepage_link: "Ruby on Rails Tutorial"
+          singn_link: "Sign up now!"
+          phome_3: "This is the home page for the"
+          phome_4: "sample application."
+        header:
+          logo_link: "sample app"
+        footer:
+          pf1: "The"
+          pf2: "by"
+          foo_link1: "Ruby on Rails Tutorial"
+          foo_link2: "Michael Hartl"
+          foo_link3: "News"
+
+      users:
+        new:
+          title: "Sign up"
+          pnew: "This will be a signup page for new users."
