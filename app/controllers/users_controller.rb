@@ -14,6 +14,8 @@ class UsersController < ApplicationController
     flash[:success] = t "layouts.application.title1"
     @user = User.new user_params
     if @user.save
+      log_in @user
+      flash[:success] = t "users.controller.save"
       redirect_to @user
     else
       render :new
