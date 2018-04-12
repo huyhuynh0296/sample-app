@@ -1,10 +1,10 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
 
-$gray-light: #777;
-$gray-medium-light: #eaeaea;
-$gray: $gray;
-$gray-darker: $gray-darker;
+$gray-light: Settings.color.gray_light;
+$gray-medium-light: Setting.color.gray_medium;
+$gray: Setting.color.gray;
+$gray-darker: Setting.color.gray_darker;
 
 @mixin box_sizing {
   -moz-box-sizing:    border-box;
@@ -168,4 +168,17 @@ input {
   .form-control {
     color: $state-danger-text;
   }
+}
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
 }

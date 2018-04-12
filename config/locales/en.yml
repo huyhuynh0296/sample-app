@@ -60,8 +60,11 @@ en:
         new:
           title: "Sign up"
           pnew: "This will be a signup page for new users."
+          remember: "Remember me on this computer"
+          create: "Create my account"
         controller:
           save: "Welcome to the Sample App!"
       session:
         app:
           error: "Invalid email/password combination"
+
