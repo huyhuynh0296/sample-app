@@ -59,12 +59,18 @@ en:
       users:
         new:
           title: "Sign up"
+          puser: "Users"
           pnew: "This will be a signup page for new users."
           remember: "Remember me on this computer"
           create: "Create my account"
         controller:
           save: "Welcome to the Sample App!"
+        edit:
+          title: "Edit user"
+          email_link: "change"
+        index:
+          title: "All users"
+
       session:
         app:
           error: "Invalid email/password combination"
-
