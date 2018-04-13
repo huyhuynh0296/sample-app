@@ -1,0 +1,8 @@
+user:
+  maximum_name: 50
+  maximum_email: 255
+  minimum_password: 6
+color:
+  gray_light: #777
+  gray : #222
+  gray_medium: #eaeaea

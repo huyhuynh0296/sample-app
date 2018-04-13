@@ -1,0 +1,15 @@
+<footer class="footer">
+  <small>
+    <%= t "layouts.footer.pf1" %>
+    <%= link_to t("layouts.footer.foo_link1"), "http://www.railstutorial.org/" %>
+    <%= t "layouts.footer.pf2" %>
+    <%= link_to t("layouts.footer.foo_link2"), "http://www.michaelhartl.com/" %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("pages.about.title"), about_path %></li>
+      <li><%= link_to t("pages.contact.title"), contact_path %></li>
+      <li><%= link_to t("layouts.footer.foo_link3"), "http://news.railstutorial.org/" %></li>
+    </ul>
+  </nav>
+</footer>
