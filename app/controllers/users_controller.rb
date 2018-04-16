@@ -18,9 +18,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      log_in @user
-      flash[:success] = I18n.t "users.controller.save"
-      redirect_to @user
+      UserMailer.account_activation(@user).deliver_now
+      flash[:info] = I18n.t "users.controller.save"
+      redirect_to root_url
     else
       render "new"
     end
@@ -44,8 +44,6 @@ class UsersController < ApplicationController
     def user_params
       params.require(:user).permit(:name, :email, :password, :password_confirmation)
     end
-  end
-
   def logged_in_user
     unless logged_in?
       store_location
@@ -53,6 +51,7 @@ class UsersController < ApplicationController
       redirect_to login_url
     end
   end
+
   def correct_user
     @user = User.find(params[:id])
     redirect_to(root_url) unless current_user?(@user)

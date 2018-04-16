@@ -7,6 +7,5 @@ helper:
   gravatar: 80
 color:
   gray_light: #777
-  gray : #222
   gray_medium: #eaeaea
   gray_darker: #333

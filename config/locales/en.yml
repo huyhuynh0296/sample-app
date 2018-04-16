@@ -63,11 +63,25 @@ en:
           pnew: "This will be a signup page for new users."
           remember: "Remember me on this computer"
           create: "Create my account"
+
+        mailer:
+          p1: "Hi"
+          p2: "Welcome to the Sample App! Click on the link below to activate your account:"
+          ac_active: "Account activation"
+          hi: "Hi"
+          account:
+            title: "Sample App"
+            p1: "Hi"
+            p2: ","
+            link: "Activate"
+
         controller:
-          save: "Welcome to the Sample App!"
+          save: "Please check your email to activate your account."
+
         edit:
           title: "Edit user"
           email_link: "change"
+
         index:
           title: "All users"
 
