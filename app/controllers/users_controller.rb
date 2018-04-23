@@ -2,7 +2,7 @@ class UsersController < ApplicationController
   def show
     @user = User.find_by id: params[:id]
     return if @user
-    flash[:danger] = I18n.t "user.flash.errorshow"
+    flash[:danger] = t "user.flash.errorshow"
     redirect_to signup_path
   end
 
@@ -11,7 +11,7 @@ class UsersController < ApplicationController
   end
 
   def create
-    flash[:success] = t("layouts.application.title1")
+    flash[:success] = t "layouts.application.title1"
     @user = User.new user_params
     if @user.save
       redirect_to @user
