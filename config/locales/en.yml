@@ -11,12 +11,10 @@ en:
           pabout_3: "and"
           pabout_4: "to teach web development with"
           pabout_5: "This is the sample application for the tutorial."
-
         contact:
           title: "Contact"
           page_link: "contact page"
           pcontact_1: "Contact the Ruby on Rails Tutorial about the sample app at the"
-
         help:
           title: "Help"
           railshelp_link: "Rails Tutorial help section"
@@ -24,12 +22,10 @@ en:
           phelp_1: "Get help on the Ruby on Rails Tutorial at the"
           phelp_2: "To get help on this sample app, see the"
           phelp_3: "book"
-
         home:
           title: "Home"
           phome_1: "This is the home page for the."
           phome_2: "sample application."
-
       layouts:
         application:
           title: "| Ruby on Rails Tutorial Sample App"
@@ -49,20 +45,19 @@ en:
           prof_link: "Profile"
           Sett_link: "Settings"
           account_link: "Account"
-
         footer:
           pf1: "The"
           pf2: "by"
           foo_link1: "Ruby on Rails Tutorial"
           foo_link2: "Michael Hartl"
           foo_link3: "News"
-
       users:
         new:
           title: "Sign up"
           pnew: "This will be a signup page for new users."
           pwconfirm: "Confirmation"
-          submit: "Create my account"
+          create: "Create my account"
+          flogin: "Log in"
       shared:
         error:
           perror: "The form contains"
@@ -75,10 +70,10 @@ en:
               name: "Your Name"
               password: "Enter The Password"
               password_confirmation: "Confrim The Password!"
-
+              remember: "Remember me on this computer"
+              create: "Create my account"
       controller:
         save: "Welcome to the Sample App!"
-
       session:
         app:
           error: "Invalid email/password combination"
